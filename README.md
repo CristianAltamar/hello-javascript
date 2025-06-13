@@ -12,4 +12,20 @@ This project is a simple movie search app built with **Node.js**, **Express**, a
 OMDB_API_KEY=<your_key> npm start
 ```
 
-The server exposes a single endpoint `/api/search` and serves the React client at `http://localhost:3000`.
+
+## Ejemplo: Buscador de Películas
+
+En la carpeta [`movie-search`](./movie-search) encontrarás un ejemplo que sigue
+una pequeña arquitectura **MVC**. Está desarrollado con **Node.js** y **React** y
+utiliza **TailwindCSS** para los estilos. La aplicación consume la API de
+[OMDb](https://www.omdbapi.com).
+
+```bash
+cd movie-search
+npm install
+OMDB_API_KEY=<tu_api_key> npm start
+```
+
+El servidor expone el endpoint `/api/search` y la interfaz se sirve en
+`http://localhost:3000`.
+main

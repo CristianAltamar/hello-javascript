@@ -9,6 +9,22 @@
 ### Proyecto realizado durante emisiones en directo desde [Twitch](https://twitch.tv/mouredev)
 > ##### Si consideras útil el curso, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
 
+## Ejemplo: Buscador de Películas
+
+En la carpeta [`movie-search`](./movie-search) encontrarás un ejemplo que sigue
+una pequeña arquitectura **MVC**. Está desarrollado con **Node.js** y **React** y
+utiliza **TailwindCSS** para los estilos. La aplicación consume la API de
+[OMDb](https://www.omdbapi.com).
+
+```bash
+cd movie-search
+npm install
+OMDB_API_KEY=<tu_api_key> npm start
+```
+
+El servidor expone el endpoint `/api/search` y la interfaz se sirve en
+`http://localhost:3000`.
+
 ## 🆕 NUEVO: Curso Intermedio [En desarrollo]
 
 <a href="https://twitch.tv/mouredev"><img src="./Images/intermediate.jpg" style="height: 50%; width:50%;"/></a>
